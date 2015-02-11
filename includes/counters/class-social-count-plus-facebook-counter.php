@@ -26,6 +26,10 @@ class Social_Count_Plus_Facebook_Counter extends Social_Count_Plus_Counter {
 	 * @var string
 	 */
 	protected $api_url = 'https://graph.facebook.com/';
+	protected $api_url_token = 'https://graph.facebook.com/v2.2/';
+	protected $oauth = 'oauth/access_token';
+	protected $tail_oauth = '&grant_type=client_credentials';
+	protected $api_url_token_tail = '&format=json&method=get&pretty=0&suppress_http_code=1';
 
 	/**
 	 * Test the counter is available.
@@ -53,7 +57,24 @@ class Social_Count_Plus_Facebook_Counter extends Social_Count_Plus_Counter {
 				'timeout'   => 60
 			);
 
-			$this->connection = wp_remote_get( $this->api_url . $settings['facebook_id'], $params );
+			if (!empty($settings['facebook_app_id'])) {
+				// Fetch fan count using the ACCESS TOKEN
+				$token_request = $this->api_url_token.$this->oauth.'?client_id='.$settings['facebook_app_id'].'&client_secret='.$settings['facebook_app_secret'].$this->tail_oauth;
+				$token_response = file_get_contents($token_request);
+
+				if (!empty($token_response)) {
+					$token_params = null;
+	    			parse_str($token_response, $token_params);
+
+	    			$requestURL = $this->api_url_token.$settings['facebook_id'].'?access_token='.$token_params['access_token'].$this->api_url_token_tail;
+	    			$this->connection = wp_remote_get( $requestURL, $params );
+				} else {
+					$this->total = ( isset( $cache[ $this->id ] ) ) ? $cache[ $this->id ] : 0;
+				}
+			} else {
+				// Fetch fan count old fashion way with simple URI request (only page id as parameter)
+				$this->connection = wp_remote_get( $this->api_url . $settings['facebook_id'], $params );
+			}
 
 			if ( is_wp_error( $this->connection ) ) {
 				$this->total = ( isset( $cache[ $this->id ] ) ) ? $cache[ $this->id ] : 0;

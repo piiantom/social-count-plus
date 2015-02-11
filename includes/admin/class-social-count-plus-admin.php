@@ -110,6 +110,16 @@ class Social_Count_Plus_Admin {
 							'title'   => __( 'Display Facebook counter', 'social-count-plus' ),
 							'type'    => 'checkbox'
 						),
+						'facebook_app_id' => array(
+							'title'   => __( 'Facebook Application ID', 'social-count-plus' ),
+							'type'    => 'text',
+							'description' => __( 'Facebook Application ID.<br />You have to create a facebook developer account, and there register a new App. This can be done easily through few clicks on the following URL<br/>https://developers.facebook.com/<br/></br/>You do not have to validate your application to facebook team. It just have to exist to get back the Application ID.', 'social-count-plus' )
+						),
+						'facebook_app_secret' => array(
+							'title'   => __( 'Facebook Application Secret', 'social-count-plus' ),
+							'type'    => 'text',
+							'description' => __( 'Facebook Application Secret Number.<br />As previously, you have to create a facebook developer account, and there register a new App. Doing so, the Application Secret Number will be provided alongside the Application ID.', 'social-count-plus' )
+						),
 						'facebook_id' => array(
 							'title'   => __( 'Facebook Page ID', 'social-count-plus' ),
 							'type'    => 'text',

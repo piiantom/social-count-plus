@@ -5,26 +5,34 @@ msgid ""
 msgstr ""
 "Project-Id-Version: social-count-plus\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/social-count-plus\n"
-"POT-Creation-Date: 2014-07-17 02:35:07+00:00\n"
-"PO-Revision-Date: 2014-07-17 02:35+0000\n"
+"POT-Creation-Date: 2015-02-11 01:42+0100\n"
+"PO-Revision-Date: 2015-02-11 01:42+0100\n"
 "Last-Translator: Claudio Sanches <contato@claudiosmweb.com>\n"
-"Language-Team: Russian (Russia) (http://www.transifex.com/projects/p/social-count-plus/language/ru_RU/)\n"
+"Language-Team: Russian (Russia) (http://www.transifex.com/projects/p/social-"
+"count-plus/language/ru_RU/)\n"
+"Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru_RU\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 "
+"&& (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
 
 #: includes/admin/class-social-count-plus-admin.php:66
+#, php-format
 msgid "Create an APP on Twitter in %s and get this information"
 msgstr "Создайте приложение в Twitter %s и получите эту информацию"
 
 #: includes/admin/class-social-count-plus-admin.php:68
+#, php-format
 msgid "Get the this information in %s"
 msgstr "Получите эту информацию здесь %s"
 
 #: includes/admin/class-social-count-plus-admin.php:73
-#: includes/admin/class-social-count-plus-admin.php:845
+#: includes/admin/class-social-count-plus-admin.php:859
 msgid "Twitter"
 msgstr "Twitter"
 
@@ -62,7 +70,7 @@ msgid "Twitter Access token secret"
 msgstr "Twitter Access token secret"
 
 #: includes/admin/class-social-count-plus-admin.php:107
-#: includes/admin/class-social-count-plus-admin.php:846
+#: includes/admin/class-social-count-plus-admin.php:860
 msgid "Facebook"
 msgstr "Facebook"
 
@@ -71,285 +79,312 @@ msgid "Display Facebook counter"
 msgstr "Показывать счетчик Facebook"
 
 #: includes/admin/class-social-count-plus-admin.php:114
-msgid "Facebook Page ID"
-msgstr "ID страницы Facebook"
+msgid "Facebook Application ID"
+msgstr ""
 
 #: includes/admin/class-social-count-plus-admin.php:116
 msgid ""
-"ID Facebook page. Must be the numeric ID.<br />You can find this information"
-" clicking to edit your page on Facebook. The URL will be similar to this:<br"
-" />https://www.facebook.com/pages/edit/?id=<strong>162354720442454</strong>"
-msgstr "ID страницы Facebook. Должно быть числовое значение.<br />Вы можете найти эту информацию, нажав на кнопку \"Редактировать\" на станице. Ссылка будет похожа на:<br />https://www.facebook.com/pages/edit/?id=<strong>162354720442454</strong>"
+"Facebook Application ID.<br />You have to create a facebook developer account, "
+"and there register a new App. This can be done easily through few clicks on the "
+"following URL<br/>https://developers.facebook.com/<br/></br/>You do not have to "
+"validate your application to facebook team. It just have to exist to get back "
+"the Application ID."
+msgstr ""
+
+#: includes/admin/class-social-count-plus-admin.php:119
+msgid "Facebook Applicaton Secret"
+msgstr ""
 
 #: includes/admin/class-social-count-plus-admin.php:121
-#: includes/admin/class-social-count-plus-admin.php:847
+msgid ""
+"Facebook Application Secret Number.<br />As previously, you have to create a "
+"facebook developer account, and there register a new App. Doing so, the "
+"Application Secret Number will be provided alongside the Application ID."
+msgstr ""
+
+#: includes/admin/class-social-count-plus-admin.php:124
+msgid "Facebook Page ID"
+msgstr "ID страницы Facebook"
+
+#: includes/admin/class-social-count-plus-admin.php:126
+msgid ""
+"ID Facebook page. Must be the numeric ID.<br />You can find this information "
+"clicking to edit your page on Facebook. The URL will be similar to this:<br /"
+">https://www.facebook.com/pages/edit/?id=<strong>162354720442454</strong>"
+msgstr ""
+"ID страницы Facebook. Должно быть числовое значение.<br />Вы можете найти эту "
+"информацию, нажав на кнопку \"Редактировать\" на станице. Ссылка будет похожа на:"
+"<br />https://www.facebook.com/pages/edit/?id=<strong>162354720442454</strong>"
+
+#: includes/admin/class-social-count-plus-admin.php:131
+#: includes/admin/class-social-count-plus-admin.php:861
 msgid "YouTube"
 msgstr "YouTube"
 
-#: includes/admin/class-social-count-plus-admin.php:124
+#: includes/admin/class-social-count-plus-admin.php:134
 msgid "Display YouTube counter"
 msgstr "Показывать счетчик YouTube"
 
-#: includes/admin/class-social-count-plus-admin.php:128
+#: includes/admin/class-social-count-plus-admin.php:138
 msgid "YouTube username"
 msgstr "Пользователь YouTube"
 
-#: includes/admin/class-social-count-plus-admin.php:130
+#: includes/admin/class-social-count-plus-admin.php:140
 msgid "Insert the YouTube username. Example: UCWGz8KbT5IE7PxhSN1jjimw"
 msgstr ""
 
-#: includes/admin/class-social-count-plus-admin.php:133
+#: includes/admin/class-social-count-plus-admin.php:143
 msgid "YouTube Channel URL"
 msgstr ""
 
-#: includes/admin/class-social-count-plus-admin.php:135
+#: includes/admin/class-social-count-plus-admin.php:145
 msgid ""
-"Insert the YouTube channel URL. Example: "
-"https://www.youtube.com/channel/UCWGz8KbT5IE7PxhSN1jjimw"
+"Insert the YouTube channel URL. Example: https://www.youtube.com/channel/"
+"UCWGz8KbT5IE7PxhSN1jjimw"
 msgstr ""
 
-#: includes/admin/class-social-count-plus-admin.php:140
-#: includes/admin/class-social-count-plus-admin.php:848
+#: includes/admin/class-social-count-plus-admin.php:150
+#: includes/admin/class-social-count-plus-admin.php:862
 msgid "Google+"
 msgstr ""
 
-#: includes/admin/class-social-count-plus-admin.php:143
+#: includes/admin/class-social-count-plus-admin.php:153
 msgid "Display Google+ counter"
 msgstr ""
 
-#: includes/admin/class-social-count-plus-admin.php:147
+#: includes/admin/class-social-count-plus-admin.php:157
 msgid "Google+ ID"
 msgstr ""
 
-#: includes/admin/class-social-count-plus-admin.php:149
+#: includes/admin/class-social-count-plus-admin.php:159
 msgid ""
-"Google+ page or profile ID. <br />Example:<br "
-"/>https://plus.google.com/<strong>115161266310935247804</strong> or "
-"https://plus.google.com/<strong>+Ferramentasblog1</strong>"
-msgstr ""
-
-#: includes/admin/class-social-count-plus-admin.php:152
-msgid "Google API Key"
-msgstr ""
-
-#: includes/admin/class-social-count-plus-admin.php:155
-msgid ""
-"Get your API key creating a project/app in %s, then inside your project go "
-"to \"APIs & auth > APIs\" and turn on the \"Google+ API\", finally go to "
-"\"APIs & auth > APIs > Credentials > Public API access\" and click in the "
-"\"CREATE A NEW KEY\" button, select the \"Browser key\" option and click in "
-"the \"CREATE\" button, now just copy your API key and paste here."
+"Google+ page or profile ID. <br />Example:<br />https://plus.google.com/"
+"<strong>115161266310935247804</strong> or https://plus.google.com/<strong>"
+"+Ferramentasblog1</strong>"
 msgstr ""
 
 #: includes/admin/class-social-count-plus-admin.php:162
-#: includes/admin/class-social-count-plus-admin.php:849
+msgid "Google API Key"
+msgstr ""
+
+#: includes/admin/class-social-count-plus-admin.php:165
+#, php-format
+msgid ""
+"Get your API key creating a project/app in %s, then inside your project go to "
+"\"APIs & auth > APIs\" and turn on the \"Google+ API\", finally go to \"APIs & "
+"auth > APIs > Credentials > Public API access\" and click in the \"CREATE A NEW "
+"KEY\" button, select the \"Browser key\" option and click in the \"CREATE\" "
+"button, now just copy your API key and paste here."
+msgstr ""
+
+#: includes/admin/class-social-count-plus-admin.php:172
+#: includes/admin/class-social-count-plus-admin.php:863
 msgid "Instagram"
 msgstr "Instagram"
 
-#: includes/admin/class-social-count-plus-admin.php:165
+#: includes/admin/class-social-count-plus-admin.php:175
 msgid "Display Instagram counter"
 msgstr "Показывать счетчик Instagram"
 
-#: includes/admin/class-social-count-plus-admin.php:169
+#: includes/admin/class-social-count-plus-admin.php:179
 msgid "Instagram Username"
 msgstr "Пользователь Instagram"
 
-#: includes/admin/class-social-count-plus-admin.php:171
+#: includes/admin/class-social-count-plus-admin.php:181
 msgid "Insert the Instagram Username."
 msgstr "Введите имя пользователя Instagram."
 
-#: includes/admin/class-social-count-plus-admin.php:174
+#: includes/admin/class-social-count-plus-admin.php:184
 msgid "Instagram User ID"
 msgstr "ID пользователя Instagram"
 
-#: includes/admin/class-social-count-plus-admin.php:176
+#: includes/admin/class-social-count-plus-admin.php:186
 msgid "Insert the Instagram User ID."
 msgstr "Введите ID пользователя Instagram."
 
-#: includes/admin/class-social-count-plus-admin.php:179
+#: includes/admin/class-social-count-plus-admin.php:189
 msgid "Instagram Access Token"
 msgstr "Instagram Access Token"
 
-#: includes/admin/class-social-count-plus-admin.php:181
+#: includes/admin/class-social-count-plus-admin.php:191
 msgid "Insert the Instagram Access Token."
 msgstr "Введите Instagram Access Token."
 
-#: includes/admin/class-social-count-plus-admin.php:186
-#: includes/admin/class-social-count-plus-admin.php:850
+#: includes/admin/class-social-count-plus-admin.php:196
+#: includes/admin/class-social-count-plus-admin.php:864
 msgid "Steam"
 msgstr "Steam"
 
-#: includes/admin/class-social-count-plus-admin.php:189
+#: includes/admin/class-social-count-plus-admin.php:199
 msgid "Display Steam counter"
 msgstr "Показывать счетчик Steam"
 
-#: includes/admin/class-social-count-plus-admin.php:193
+#: includes/admin/class-social-count-plus-admin.php:203
 msgid "Steam group name"
 msgstr "Группа в Steam"
 
-#: includes/admin/class-social-count-plus-admin.php:195
+#: includes/admin/class-social-count-plus-admin.php:205
 msgid "Insert the Steam Community group name. Example: DOTALT"
 msgstr "Введите имя группы из сообщества Steam. Пример: DOTALT"
 
-#: includes/admin/class-social-count-plus-admin.php:200
-#: includes/admin/class-social-count-plus-admin.php:851
+#: includes/admin/class-social-count-plus-admin.php:210
+#: includes/admin/class-social-count-plus-admin.php:865
 msgid "SoundCloud"
 msgstr "SoundCloud"
 
-#: includes/admin/class-social-count-plus-admin.php:203
+#: includes/admin/class-social-count-plus-admin.php:213
 msgid "Display SoundCloud counter"
 msgstr "Показывать счетчик SoundCloud"
 
-#: includes/admin/class-social-count-plus-admin.php:207
+#: includes/admin/class-social-count-plus-admin.php:217
 msgid "SoundCloud Username"
 msgstr "Пользователь SoundCloud"
 
-#: includes/admin/class-social-count-plus-admin.php:209
+#: includes/admin/class-social-count-plus-admin.php:219
 msgid "Insert the SoundCloud Username."
 msgstr "Введиет имя пользователя SoundCloud."
 
-#: includes/admin/class-social-count-plus-admin.php:212
+#: includes/admin/class-social-count-plus-admin.php:222
 msgid "SoundCloud Client ID"
 msgstr "ID клиента SoundCloud"
 
-#: includes/admin/class-social-count-plus-admin.php:214
+#: includes/admin/class-social-count-plus-admin.php:224
+#, php-format
 msgid "Insert the SoundCloud APP Client ID. Generate this information in %s"
 msgstr "Введите ID приложения SoundCloud. Получите ID на странице %s"
 
-#: includes/admin/class-social-count-plus-admin.php:219
-#: includes/admin/class-social-count-plus-admin.php:852
+#: includes/admin/class-social-count-plus-admin.php:229
+#: includes/admin/class-social-count-plus-admin.php:866
 msgid "Posts"
 msgstr "Записи"
 
-#: includes/admin/class-social-count-plus-admin.php:222
+#: includes/admin/class-social-count-plus-admin.php:232
 msgid "Display Posts counter"
 msgstr "Показывать счетчик записей"
 
-#: includes/admin/class-social-count-plus-admin.php:227
+#: includes/admin/class-social-count-plus-admin.php:237
 msgid "Post type"
 msgstr ""
 
-#: includes/admin/class-social-count-plus-admin.php:234
-#: includes/admin/class-social-count-plus-admin.php:853
+#: includes/admin/class-social-count-plus-admin.php:244
+#: includes/admin/class-social-count-plus-admin.php:867
 msgid "Comments"
 msgstr "Комментарии"
 
-#: includes/admin/class-social-count-plus-admin.php:237
+#: includes/admin/class-social-count-plus-admin.php:247
 msgid "Display Comments counter"
 msgstr "Показывать счетчик комментариев"
 
-#: includes/admin/class-social-count-plus-admin.php:244
-#: includes/admin/class-social-count-plus-admin.php:689
+#: includes/admin/class-social-count-plus-admin.php:254
+#: includes/admin/class-social-count-plus-admin.php:699
 #: includes/admin/views/html-settings-page.php:9
 msgid "Settings"
 msgstr "Настройки"
 
-#: includes/admin/class-social-count-plus-admin.php:247
+#: includes/admin/class-social-count-plus-admin.php:257
 msgid "Open URLs in new tab/window"
 msgstr ""
 
-#: includes/admin/class-social-count-plus-admin.php:249
+#: includes/admin/class-social-count-plus-admin.php:259
 msgid "This option add target=\"_blank\" in all counters URLs."
 msgstr ""
 
-#: includes/admin/class-social-count-plus-admin.php:252
+#: includes/admin/class-social-count-plus-admin.php:262
 msgid "Add nofollow in URLs"
 msgstr ""
 
-#: includes/admin/class-social-count-plus-admin.php:254
+#: includes/admin/class-social-count-plus-admin.php:264
 msgid "This option add rel=\"nofollow\" in all counters URLs."
 msgstr ""
 
-#: includes/admin/class-social-count-plus-admin.php:261
+#: includes/admin/class-social-count-plus-admin.php:271
 #: includes/admin/views/html-settings-page.php:9
 msgid "Design"
 msgstr "Внешний вид"
 
-#: includes/admin/class-social-count-plus-admin.php:264
+#: includes/admin/class-social-count-plus-admin.php:274
 msgid "Layout Models"
 msgstr "Внешний вид"
 
-#: includes/admin/class-social-count-plus-admin.php:279
+#: includes/admin/class-social-count-plus-admin.php:289
 msgid "Text Color"
 msgstr "Цвет текста"
 
-#: includes/admin/class-social-count-plus-admin.php:284
+#: includes/admin/class-social-count-plus-admin.php:294
 msgid "Order"
 msgstr ""
 
-#: includes/admin/class-social-count-plus-admin.php:286
+#: includes/admin/class-social-count-plus-admin.php:296
 msgid "This option controls the order of the icons in the widget."
 msgstr ""
 
-#. #-#-#-#-#  social-count-plus.pot (Social Count Plus 3.0.0)  #-#-#-#-#
-#. Plugin Name of the plugin/theme
-#: includes/admin/class-social-count-plus-admin.php:303
-#: includes/admin/class-social-count-plus-admin.php:304
+#: includes/admin/class-social-count-plus-admin.php:313
+#: includes/admin/class-social-count-plus-admin.php:314
 #: includes/class-social-count-plus-widget.php:18
 msgid "Social Count Plus"
 msgstr "Соц счетчики +"
 
-#: includes/admin/class-social-count-plus-admin.php:522
+#: includes/admin/class-social-count-plus-admin.php:532
 msgid "Activate/Deactivate"
 msgstr "Включить/Отключить"
 
-#: includes/admin/class-social-count-plus-admin.php:736
+#: includes/admin/class-social-count-plus-admin.php:746
 msgid "General Info"
 msgstr ""
 
-#: includes/admin/class-social-count-plus-admin.php:737
+#: includes/admin/class-social-count-plus-admin.php:747
 #: includes/admin/views/html-settings-system-status-page.php:11
 msgid "Social Count Plus Version"
 msgstr ""
 
-#: includes/admin/class-social-count-plus-admin.php:738
+#: includes/admin/class-social-count-plus-admin.php:748
 #: includes/admin/views/html-settings-system-status-page.php:15
 msgid "WordPress Version"
 msgstr ""
 
-#: includes/admin/class-social-count-plus-admin.php:739
+#: includes/admin/class-social-count-plus-admin.php:749
 #: includes/admin/views/html-settings-system-status-page.php:19
 msgid "WP Multisite Enabled"
 msgstr ""
 
-#: includes/admin/class-social-count-plus-admin.php:739
-#: includes/admin/class-social-count-plus-admin.php:742
-#: includes/admin/class-social-count-plus-admin.php:743
+#: includes/admin/class-social-count-plus-admin.php:749
+#: includes/admin/class-social-count-plus-admin.php:752
+#: includes/admin/class-social-count-plus-admin.php:753
 #: includes/admin/views/html-settings-system-status-page.php:20
 msgid "Yes"
 msgstr ""
 
-#: includes/admin/class-social-count-plus-admin.php:739
-#: includes/admin/class-social-count-plus-admin.php:742
-#: includes/admin/class-social-count-plus-admin.php:743
+#: includes/admin/class-social-count-plus-admin.php:749
+#: includes/admin/class-social-count-plus-admin.php:752
+#: includes/admin/class-social-count-plus-admin.php:753
 #: includes/admin/views/html-settings-system-status-page.php:20
 msgid "No"
 msgstr ""
 
-#: includes/admin/class-social-count-plus-admin.php:740
+#: includes/admin/class-social-count-plus-admin.php:750
 #: includes/admin/views/html-settings-system-status-page.php:23
 msgid "Web Server Info"
 msgstr ""
 
-#: includes/admin/class-social-count-plus-admin.php:741
+#: includes/admin/class-social-count-plus-admin.php:751
 #: includes/admin/views/html-settings-system-status-page.php:27
 msgid "PHP Version"
 msgstr ""
 
-#: includes/admin/class-social-count-plus-admin.php:744
+#: includes/admin/class-social-count-plus-admin.php:754
 msgid "Social Connections"
 msgstr ""
 
-#: includes/admin/class-social-count-plus-admin.php:754
-msgid ""
-"You do not have any counter that needs to connect remotely currently active"
+#: includes/admin/class-social-count-plus-admin.php:764
+msgid "You do not have any counter that needs to connect remotely currently active"
 msgstr ""
 
 #: includes/admin/views/html-settings-functions-shortcodes-page.php:7
 msgid ""
 "Use this library to generate your own model layout or display specific data "
 "counters."
-msgstr "Используйте эту библиотеку для создания своего собственного стиля счетчиков."
+msgstr ""
+"Используйте эту библиотеку для создания своего собственного стиля счетчиков."
 
 #: includes/admin/views/html-settings-functions-shortcodes-page.php:9
 msgid "Shortcodes"
@@ -437,8 +472,7 @@ msgstr ""
 #: includes/admin/views/html-settings-system-status-page.php:33
 msgid ""
 "Your server does not have fsockopen or cURL enabled. The scripts which "
-"communicate with the social APIs will not work. Contact your hosting "
-"provider."
+"communicate with the social APIs will not work. Contact your hosting provider."
 msgstr ""
 
 #: includes/admin/views/html-settings-system-status-page.php:37
@@ -467,8 +501,8 @@ msgstr ""
 
 #: includes/admin/views/html-settings-system-status-page.php:69
 msgid ""
-"wp_remote_get() failed. This plugin won't work with your server. Contact "
-"your hosting provider. Error:"
+"wp_remote_get() failed. This plugin won't work with your server. Contact your "
+"hosting provider. Error:"
 msgstr ""
 
 #: includes/admin/views/html-settings-system-status-page.php:72
@@ -498,7 +532,7 @@ msgstr "подписчики"
 msgid "members"
 msgstr "участники"
 
-#: includes/class-social-count-plus-view.php:159
+#: includes/class-social-count-plus-view.php:165
 msgid "comments"
 msgstr "комментарии"
 
@@ -510,20 +544,18 @@ msgstr "Показывать счетчик"
 msgid "Title"
 msgstr "Заголовок"
 
-#. Plugin URI of the plugin/theme
-msgid "https://github.com/claudiosmweb/social-count-plus"
-msgstr "https://github.com/claudiosmweb/social-count-plus"
+#~ msgid "https://github.com/claudiosmweb/social-count-plus"
+#~ msgstr "https://github.com/claudiosmweb/social-count-plus"
 
-#. Description of the plugin/theme
-msgid ""
-"Display the counting Twitter followers, Facebook fans, YouTube subscribers "
-"posts and comments."
-msgstr "Показывать кол-во последователей Twitter, фанов Facebook, подписчиков YouTube, записей и комментариев."
+#~ msgid ""
+#~ "Display the counting Twitter followers, Facebook fans, YouTube subscribers "
+#~ "posts and comments."
+#~ msgstr ""
+#~ "Показывать кол-во последователей Twitter, фанов Facebook, подписчиков "
+#~ "YouTube, записей и комментариев."
 
-#. Author of the plugin/theme
-msgid "claudiosanches, felipesantana"
-msgstr "claudiosanches, felipesantana"
+#~ msgid "claudiosanches, felipesantana"
+#~ msgstr "claudiosanches, felipesantana"
 
-#. Author URI of the plugin/theme
-msgid "http://claudiosmweb.com/"
-msgstr "http://claudiosmweb.com/"
+#~ msgid "http://claudiosmweb.com/"
+#~ msgstr "http://claudiosmweb.com/"
